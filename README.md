@@ -19,7 +19,7 @@ Political reporters and researchers who need to organize congressional vote reco
 
 ## Validation
 
-I ran the tool on 2026 House roll calls 10-14 and confirmed that it exported all five records. I also tested the keyword "gridlock," which returned only roll calls 10 and 11. I checked the date, result, vote totals, and source link for roll call 10 against trhe official record.
+I ran the tool on 2026 House roll calls 10-14 and confirmed that it exported all five records. I also tested the keyword "gridlock," which returned only roll calls 10 and 11. I checked the date, result, vote totals, and source link for roll call 10 against the official record.
 
 ## Limitations
 
@@ -27,3 +27,7 @@ I ran the tool on 2026 House roll calls 10-14 and confirmed that it exported all
 - Covers House votes only.
 - Keyword searches use vote descriptions, bill numbers, and vote questions.
 - Results should be checked against the linked official records.
+
+## Example Output
+
+![Example House vote summaries](screenshot.png)
