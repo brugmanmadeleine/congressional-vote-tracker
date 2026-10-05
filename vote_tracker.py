@@ -4,11 +4,11 @@ from urllib.request import urlopen
 from urllib.error import URLError
 import xml.etree.ElementTree as ET
 
-# start with a smal set of historical House votes
+# start with a smal set of House votes
 YEAR = 2026
 VOTE_NUMBERS = [10, 11, 12, 13, 14]
 
-# save the CSV
+# saves the CSV
 OUTPUT_FILE = Path(__file__).parent / "house_votes.csv"
 
 def get_vote(year, vote_number):
